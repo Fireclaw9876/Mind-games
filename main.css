@@ -1,0 +1,13 @@
+#info-box {
+  background: rgba(255,255,255, 1);
+   text-align:center;border:1px solid black;
+   font-family:'Slabo+27pxS',sans-seri;
+   color: UFlstvbbIr2IWSPMlHjoQLFgWLA8fAcvSaWXDa2KMcTTh
+}
+
+#trivia-button {
+  float: right;
+}
+
+#trivia-button button {
+  padding: 10px;
