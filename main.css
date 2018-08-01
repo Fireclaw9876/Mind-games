@@ -1,10 +1,3 @@
-#info-box {
-  background: rgba(255,255,255, 1);
-   text-align:center;border:1px solid black;
-   font-family:'Slabo+27pxS',sans-seri;
-   color: UFlstvbbIr2IWSPMlHjoQLFgWLA8fAcvSaWXDa2KMcTTh
-}
-
 #trivia-button {
   float: right;
 }
@@ -12,6 +5,11 @@
 #trivia-button button {
   padding: 10px;
 }
+
+#info-box {
+  background: rgba(255,255,255, 1);
+  text-align:center;
+  font-family:'Slabo+27pxS',sans-serif;}
 
 .Big-box {
   height: 100px;
@@ -22,6 +20,28 @@
   width: 100%;
   height: 90%;
   padding-top: 20%%;
+}
+
+.info-box {
+  width: 20%;
+  margin: auto;
+  background: rgba(255,255,255, 1);
+  text-align:center;
+  font-family:'Slabo+27pxS',sans-serif;
+}
+
+.info-box h1 {
+  border:1px solid black;
+  margin: 0;
+}
+
+.info-box a {
+  color: black;
+  text-decoration: default;
+}
+
+.image-link {
+  width: 33%;
 }
 
 
