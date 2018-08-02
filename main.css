@@ -6,14 +6,29 @@
   padding: 10px;
 }
 
-#info-box {
+#info-box, #rotd, .riddle-box, #rd {
+  width: 100%;
+  margin: 2% auto;
   background: rgba(255,255,255, 1);
-  text-align:center;
-  font-family:'Slabo+27pxS',sans-serif;}
+  text-align: center;
+  font-family:'Slabo+27pxS',sans-serif;
+}
 
-.Big-box {
-  height: 100px;
-  background-color: rgba(255,0,0,0.1);
+#rotd {
+  padding: 3%;
+}
+
+
+
+#rotd-answer {
+    padding-top: 2%;
+  }
+
+
+
+.tagline audio {
+  float: right;
+  margin-right: 2%;
 }
 
 .big-button {
@@ -43,8 +58,3 @@
 .image-link {
   width: 33%;
 }
-
-
-/* width: 100px;
-height: 200px;
-background-color: rgba(0,0,255,0.1); */
