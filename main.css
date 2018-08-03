@@ -18,12 +18,21 @@
   padding: 3%;
 }
 
-
+body {
+  background: rgba(29, 209, 140);
+}
 
 #rotd-answer {
     padding-top: 2%;
   }
 
+#trivia-header {
+  color:blue;
+  text-align:center;
+  font-family:'Raleway', serif;
+  border:1px solid black;
+  background: rgba(108, 106, 112,.75)
+}
 
 
 .tagline audio {
