@@ -19,24 +19,6 @@
         <h1 id="trivia-header">Trivia</h1>
       </div>
 
-      <!-- TODO: SEARCH BAR TURNED OFF, NEEDS JAVASCRIPT CODE TO WORK -->
-      <!-- <div style="text-align:right" class="col-sm-3">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button style="text-align:right" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div style="text-align:right" class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item active"></li>
-             </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-               </form>
-           </div>
-         </nav>
-      </div> -->
-
 
       <div class="dropdown">
         <a class="btn btn-secondary dropdown-toggle big-button" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,59 +33,99 @@
     </div> <!-- NOTE: END OF NAVIGATION -->
 
     <div class="info-box">
-      <a href="#">
+      <a id="tr-questions" href="#">
+        <h1>Questions</h1>
+      </a>
+      <!-- <a href="#">
         <h1>Fast</h1>
       </a>
       <a href="#">
-        <h1>Precision</h1>
-      </a>
-      <a href="#">
         <h1>Create</h1>
-      </a>
+      </a> -->
     </div>
+    <p id="info-box">More Coming Soon</p>
 
-  <a href="https://brightside.me/">
-     <img
-      src=https://files.brightside.me/files/news/part_32/326360/13442160-16856710-1-0-1492087601-1492087604-650-1-1492087604-650-e821ae789a-1492104806.jpg
-     >
-     <img
-     src=http://www.worldfactsftw.com/wp-content/uploads/2017/12/hqdefault.jpg
-     >
-    <img
-     src=http://oddmenot.com/wp-content/uploads/2017/09/13442360-16857210-5-0-1492087670-1492087672-650-1-1492087672-650-e821ae789a-1492104806.jpg
-     >
+  <a id="picture-box" href="https://brightside.me/">
+    <img src="https://files.brightside.me/files/news/part_32/326360/13442160-16856710-1-0-1492087601-1492087604-650-1-1492087604-650-e821ae789a-1492104806.jpg">
+    <img src="http://www.worldfactsftw.com/wp-content/uploads/2017/12/hqdefault.jpg">
+    <img src="http://oddmenot.com/wp-content/uploads/2017/09/13442360-16857210-5-0-1492087670-1492087672-650-1-1492087672-650-e821ae789a-1492104806.jpg">
  </a>
 
-    <div class="">
-      <h1>Question 1</h1>
-      <h5 id= "info-box" style=""> Now you see me, Now you don't<br>I am the first on earth, second in heaven. I appear twice in a week, though you can only see me once in a year. What am I? </h5>
-    <button type="button" id="info-box">A letter</button>
-    <button type="button" id="info-box">I don't know</button>
-    <button type="button" id="info-box">ghost</button>
-
-    </div>
-    <div class="">
-      <h1>Question 2</h1>
-      <p id= "info-box"style=""> Colors in the eye<br> What's black and white and red all over?</p>
-      <button type="button" id="info-box">IDK</button>
-      <button type="button" id="info-box">A pianted page</button>
-      <button type="button" id="info-box">News</button>
-    </div>
-    <div class="">
-      <h1>Question 3</h1>
-      <p id= "info-box" style=""> Myth<br> What is at the end of a rainbow?</p>
-      <button type="button" id="info-box">Gold</button>
-      <button type="button" id="info-box">Nothing, it's a legend</button>
-      <button type="button" id="info-box">A letter</button>
-    <div class="">
-      <h1>Question 4</h1>
-     <p id= "info-box"style=""> Up Down Left Right GONE <br> Jack is in a prison cell. The ground is made of dirt and there is no bed or bathroom. There is nothing in the cell but a window which is taller than 3 Jacks combined. How did he escape?
-     <button type="button" id="info-box">He used his hands and dug a hole.</button>
-     <button type="button" id="info-box">He was superhuman and pushed the wall creating a hole.</button>
-     <button type="button" id="info-box">He used the dirt to make a mountain and climbed out the window.</button>
-     <button type="button" id="info-box">Jack is magic.</button>
+ <div class="trivia-questions">
+  <div class="trivia-box">
+   <h1>Question 1</h1>
+   <h5 id= "info-box" style=""> Now you see me, Now you don't<br>I am the first on earth, second in heaven. I appear twice in a week, though you can only see me once in a year. What am I? </h5>
+   <button class="tr-button-show" type="button" name="button">show answer</button>
+   <button class="tr-button-hide" type="button" name="button">hide answer</button>
+   <p class="tr-answer">A letter</p>
   </div>
-  
+  <div class="trivia-box">
+    <h1>Question 2</h1>
+    <h5 id= "info-box"style=""> Colors in the eye<br> What's black and white and red all over?</h5>
+    <button class="tr-button-show" type="button" name="button">show answer</button>
+    <button class="tr-button-hide" type="button" name="button">hide answer</button>
+    <p class="tr-answer">The newspaper</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 3</h1>
+    <h5 id= "info-box" style=""> Myth<br> What is at the end of a rainbow?</h5>
+    <button class="tr-button-show" type="button" name="button">show answer</button>
+    <button class="tr-button-hide" type="button" name="button">hide answer</button>
+    <p class="tr-answer">The letter W</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 4</h1>
+   <h5 id= "info-box"style=""> Up Down Left Right GONE <br> Jack is in a prison cell.
+     The ground is made of dirt and there is no bed or bathroom. There is nothing in
+     the cell but a window which is taller than 3 Jacks combined. How did he escape?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">He created a mountain of dirt and climbed out the window</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 5</h1>
+   <h5 id= "info-box"style=""> Heads Up <br>What has a head and a tail but no body?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">A coin</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 6</h1>
+   <h5 id= "info-box"style=""> Stalker <br> What always follows you no matter where you are as long as there is light?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">Shadow</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 7</h1>
+   <h5 id= "info-box"style=""> 5 siblings <br> Mary’s father has five daughters named Mala, Mili, Mele, Molo …Guess what would be the name of the fifth?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">Mary, duh</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 8</h1>
+   <h5 id= "info-box"style=""> Second, Minute, Hour, Day, Month, Year? <br> Which month has 28 days?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">All of them dummy</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 9</h1>
+   <h5 id= "info-box"style=""> That's so punny <br> Why is the letter A the most like a flower?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">There's a B after it</p>
+  </div>
+  <div class="trivia-box">
+    <h1>Question 10</h1>
+   <h5 id= "info-box"style=""> Again <br> Many have heard me, but no one has seen me, and I speak back until spoken to. Who am I?</h5>
+     <button class="tr-button-show" type="button" name="button">show answer</button>
+     <button class="tr-button-hide" type="button" name="button">hide answer</button>
+     <p class="tr-answer">All of them dummy</p>
+  </div>
+ </div>
+
 
 
 </body>

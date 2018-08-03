@@ -6,7 +6,7 @@
   padding: 10px;
 }
 
-#info-box, #rotd, .riddle-box, #rd {
+#info-box, #rotd, .riddle-box, .trivia-box, #rd {
   width: 100%;
   margin: 2% auto;
   background: rgba(255,255,255, 1);
